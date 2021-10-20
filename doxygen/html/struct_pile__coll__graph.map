@@ -1,0 +1,4 @@
+<map id="Pile" name="Pile">
+<area shape="rect" id="node1" title="La pile de jeu." alt="" coords="9,95,53,121"/>
+<area shape="rect" id="node2" href="$structcarte.html" title="Structure d&#39;une carte." alt="" coords="5,5,56,32"/>
+</map>

@@ -1,0 +1,118 @@
+pepite:     0
+pepite:     0
+pepite:     0
+Tour:       6
+ordi:       0
+nbJoueurs:  8
+role        chercheur
+nom:        e
+outil:      1
+outil:      1
+outil:      1
+score:      1
+carte 0:    A 5
+carte 1:    G 2
+carte 2:    G 3
+carte 3:    A 10
+carte 4:    G 5
+carte 5:    0
+carte 6:    A 0
+logo:       5
+role        saboteur
+nom:        saboteur
+outil:      1
+outil:      1
+outil:      1
+score:      0
+carte 0:    G 3
+carte 1:    G 3
+carte 2:    A 2
+carte 3:    0
+carte 4:    G 3
+carte 5:    G 5
+carte 6:    A 0
+logo:       6
+role        chercheur
+nom:        cher
+outil:      1
+outil:      1
+outil:      1
+score:      0
+carte 0:    G 4
+carte 1:    G 5
+carte 2:    0
+carte 3:    G 5
+carte 4:    A 1
+carte 5:    G 5
+carte 6:    A 4
+logo:       4
+role        saboteur
+nom:        cher
+outil:      1
+outil:      1
+outil:      1
+score:      0
+carte 0:    G 2
+carte 1:    G 5
+carte 2:    G 1
+carte 3:    G 5
+carte 4:    G 5
+carte 5:    0
+carte 6:    A 0
+logo:       7
+role        chercheur
+nom:        e
+outil:      1
+outil:      1
+outil:      1
+score:      0
+carte 0:    G 4
+carte 1:    G 3
+carte 2:    G 4
+carte 3:    A 10
+carte 4:    0
+carte 5:    G 2
+carte 6:    G 5
+logo:       3
+role        chercheur
+nom:        d
+outil:      1
+outil:      1
+outil:      1
+score:      0
+carte 0:    A 6
+carte 1:    G 5
+carte 2:    G 1
+carte 3:    G 1
+carte 4:    G 5
+carte 5:    0
+carte 6:    G 2
+logo:       2
+role        chercheur
+nom:        d
+outil:      1
+outil:      1
+outil:      1
+score:      6
+carte 0:    G 5
+carte 1:    A 4
+carte 2:    G 1
+carte 3:    G 1
+carte 4:    G 1
+carte 5:    G 1
+carte 6:    A 4
+logo:       1
+role        chercheur
+nom:        d
+outil:      1
+outil:      1
+outil:      1
+score:      2
+carte 0:    G 3
+carte 1:    A 9
+carte 2:    A 5
+carte 3:    A 3
+carte 4:    A 1
+carte 5:    G 5
+carte 6:    0
+logo:       0

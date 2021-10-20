@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1620822826 source:c:\users\tonio\desktop\ing1\informatique\projet\menu\menu.c
+	"header.h"
+
+1619712137 source:c:\users\tonio\desktop\ing1\informatique\projet\menu\sp.c
+
+1620823073 c:\users\tonio\desktop\ing1\informatique\projet\menu\header.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<allegro.h>
+	<algif.h>
+
+1619792804 source:c:\users\tonio\desktop\ing1\informatique\projet\menu\main.c
+	"header.h"
+
+1620822938 source:c:\users\tonio\desktop\ing1\informatique\projet\menu\menu2.c
+	"header.h"
+
+1620824133 source:c:\users\tonio\desktop\ing1\informatique\projet\menu\nouvelle partie.c
+	"header.h"
+
+1619792806 source:c:\users\guill\desktop\menu\main.c
+	"header.h"
+
+1623011369 c:\users\guill\desktop\menu\header.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<allegro.h>
+	<math.h>
+
+1623011467 source:c:\users\guill\desktop\menu\menu.c
+	"header.h"
+
+1623013375 source:c:\users\guill\desktop\menu\nouvelle partie.c
+	"header.h"
+
+1619712138 source:c:\users\guill\desktop\menu\sp.c
+
+1622973141 source:c:\users\guill\desktop\menu\aide.c
+	"header.h"
+
+1623011104 source:c:\users\guill\desktop\menu\pioche.c
+	"header.h"
+
+1623011018 source:c:\users\guill\desktop\menu\plateau.c
+	"header.h"
+
+1622999443 source:c:\users\guill\desktop\menu\ordi.c
+	"header.h"
+
+1623010350 source:c:\users\guill\desktop\menu\sauvegarder.c
+	"header.h"
+
+1622999711 source:c:\users\guill\desktop\menu\fin de partie.c
+	"header.h"
+
+1623010265 source:c:\users\guill\desktop\menu\ecran victoire.c
+	"header.h"
+

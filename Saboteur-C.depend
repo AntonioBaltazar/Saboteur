@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1622973142 source:c:\users\tonio\desktop\saboteur\projet\aide.c
+	"header.h"
+
+1634628484 c:\users\tonio\desktop\saboteur\projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<allegro.h>
+	<math.h>
+	<algif.h>
+
+1623015712 source:c:\users\tonio\desktop\saboteur\projet\ecran victoire.c
+	"header.h"
+
+1623015632 source:c:\users\tonio\desktop\saboteur\projet\fin de partie.c
+	"header.h"
+
+1623015088 source:c:\users\tonio\desktop\saboteur\projet\main.c
+	"header.h"
+
+1623015094 source:c:\users\tonio\desktop\saboteur\projet\menu.c
+	"header.h"
+
+1623015104 source:c:\users\tonio\desktop\saboteur\projet\nouvelle partie.c
+	"header.h"
+
+1623015114 source:c:\users\tonio\desktop\saboteur\projet\ordi.c
+	"header.h"
+
+1623011106 source:c:\users\tonio\desktop\saboteur\projet\pioche.c
+	"header.h"
+
+1623015128 source:c:\users\tonio\desktop\saboteur\projet\plateau.c
+	"header.h"
+
+1623015136 source:c:\users\tonio\desktop\saboteur\projet\sauvegarder.c
+	"header.h"
+

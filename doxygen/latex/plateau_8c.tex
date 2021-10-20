@@ -1,0 +1,349 @@
+\hypertarget{plateau_8c}{}\doxysection{C\+:/\+Users/tonio/\+Desktop/\+ING1/\+Informatique/\+Projet/plateau.c File Reference}
+\label{plateau_8c}\index{C:/Users/tonio/Desktop/ING1/Informatique/Projet/plateau.c@{C:/Users/tonio/Desktop/ING1/Informatique/Projet/plateau.c}}
+{\ttfamily \#include \char`\"{}header.\+h\char`\"{}}\newline
+Include dependency graph for plateau.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plateau_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{plateau_8c_a391165e2d5a41749746f02629f617923}{Main\+Plateau}} (int nb\+Joueurs, BITMAP $\ast$nain, \mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, \mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$pile, BITMAP $\ast$plateau, int pepite\mbox{[}3\mbox{]}, char defausse\mbox{[}10\mbox{]}, int ordi, int tour)
+\item 
+void \mbox{\hyperlink{plateau_8c_a3aafb072999724f1cbd7896dc968a1e6}{Plateau}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} nain\mbox{[}8\mbox{]}, \mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$pile, int nb\+Joueurs, int numJ, BITMAP $\ast$plateau, int pepite\mbox{[}3\mbox{]}, char defausse\mbox{[}10\mbox{]}, int $\ast$sortie)
+\item 
+void \mbox{\hyperlink{plateau_8c_ad1820218f5b6a26b0f6e9379fe121c3f}{Voir\+Joueurs}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} nain\mbox{[}8\mbox{]}, BITMAP $\ast$outils\mbox{[}3\mbox{]}, int joueur\+Actuel, int nb\+Joueur)
+\item 
+void \mbox{\hyperlink{plateau_8c_ac748254b76ebf2b5bd9782d173a7ae56}{Afficher\+Joueur}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} nain\mbox{[}8\mbox{]}, BITMAP $\ast$outils\mbox{[}3\mbox{]})
+\item 
+void \mbox{\hyperlink{plateau_8c_abdf1e3ffc52fce73aabd0c1b52d66695}{afficher\+Adversaires}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, int nb\+Joueur, int joueur\+Actuel, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} nains\mbox{[}8\mbox{]}, BITMAP $\ast$buffer)
+\item 
+void \mbox{\hyperlink{plateau_8c_a48bb2ab20be3e6be1eb2ec357e0b35af}{afficher\+Cartes}} (\mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$pile, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} dos\mbox{[}3\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} galerie\mbox{[}6\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} action\mbox{[}12\mbox{]}, BITMAP $\ast$outils\mbox{[}3\mbox{]}, BITMAP $\ast$passer\mbox{[}2\mbox{]}, \mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}, int carte\+Prise, char defausse\mbox{[}10\mbox{]}, BITMAP $\ast$buffer)
+\item 
+void \mbox{\hyperlink{plateau_8c_a6efb145196062cd0a751148d37dfe31f}{afficher\+Plateau}} (\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} galerie\mbox{[}6\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} action\mbox{[}12\mbox{]}, BITMAP $\ast$buffer, BITMAP $\ast$plateau)
+\item 
+void \mbox{\hyperlink{plateau_8c_a8d90a0de6346e678318e074df302f916}{Actions\+Joueur}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, \mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$pile, int $\ast$drag\+Drop, int $\ast$actions, int $\ast$carte\+Prise, char defausse\mbox{[}10\mbox{]}, int numJ, int nb\+Joueur, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} dos\mbox{[}3\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} action\mbox{[}12\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} galerie\mbox{[}6\mbox{]}, BITMAP $\ast$buffer, BITMAP $\ast$plateau, BITMAP $\ast$Im\+Pepite\mbox{[}3\mbox{]}, int pepite\mbox{[}3\mbox{]})
+\item 
+int \mbox{\hyperlink{plateau_8c_a4526a6cc0b0b8bd97133c55830e93008}{confirmer}} (char phrase\mbox{[}30\mbox{]})
+\item 
+void \mbox{\hyperlink{plateau_8c_a5a3dee86400d40c1c34c4eeb93998702}{outils\+Adverses}} (\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} \mbox{\hyperlink{structjoueur}{joueur}}\mbox{[}8\mbox{]}, int nbjoueur, int joueur\+Actuel, int \mbox{\hyperlink{structcarte}{carte}}, int $\ast$drag\+Drop)
+\item 
+void \mbox{\hyperlink{plateau_8c_a4f72619f4d294a9eadf3228b9fa8f72e}{Detruire}} (int \mbox{\hyperlink{structcarte}{carte}}, \mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, int $\ast$drag\+Drop)
+\item 
+void \mbox{\hyperlink{plateau_8c_a77cbf97842f3822f57d19082e0ce80c9}{Reparer}} (int \mbox{\hyperlink{structcarte}{carte}}, \mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, int $\ast$drag\+Drop)
+\item 
+void \mbox{\hyperlink{plateau_8c_a9c37652eeca976dc98674c8fd3e8954d}{drag\+And\+Drop}} (\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} \mbox{\hyperlink{structcarte}{carte}}, int destX, int destY, int plusX, int plusY, int $\ast$drag\+Drop, BITMAP $\ast$buffer)
+\item 
+void \mbox{\hyperlink{plateau_8c_a19ac3e4a1e981d6566eb4cf8ee7d557b}{init\+Cartes}} (\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} dos\mbox{[}3\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} galerie\mbox{[}6\mbox{]}, \mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}} action\mbox{[}12\mbox{]})
+\item 
+void \mbox{\hyperlink{plateau_8c_a1cf57bf87dc01bf9711489cbe0b13611}{Placer\+Carte}} (int \mbox{\hyperlink{structcarte}{carte}}, BITMAP $\ast$plateau)
+\item 
+void \mbox{\hyperlink{plateau_8c_a43919163b8da9d217d2eefda0545df55}{verifier\+Plateau}} (int nb\+Outils, int \mbox{\hyperlink{structcarte}{carte}}, int $\ast$drag\+Drop, BITMAP $\ast$buffer, BITMAP $\ast$plateau)
+\item 
+void \mbox{\hyperlink{plateau_8c_a52bd9044779fa82016e4a43a91abcdb8}{connection\+Carte}} (BITMAP $\ast$plateau, int ligne, int col, int $\ast$placer, int \mbox{\hyperlink{structcarte}{carte}})
+\item 
+void \mbox{\hyperlink{plateau_8c_ab076bb35b9baaed1ab4429aa917ae976}{eboulement}} (int $\ast$drag\+Drop, BITMAP $\ast$buffer, BITMAP $\ast$plateau)
+\item 
+void \mbox{\hyperlink{plateau_8c_a432cc0a927d10ef38c2c7bf77cd260aa}{detruire\+Galerie}} (BITMAP $\ast$plateau)
+\item 
+void \mbox{\hyperlink{plateau_8c_a6b922f6a0fd47a6e336a72b50f2bd4e1}{afficher\+Message}} (char message\mbox{[}40\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{plateau_8c_a8d90a0de6346e678318e074df302f916}\label{plateau_8c_a8d90a0de6346e678318e074df302f916}} 
+\index{plateau.c@{plateau.c}!ActionsJoueur@{ActionsJoueur}}
+\index{ActionsJoueur@{ActionsJoueur}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{ActionsJoueur()}{ActionsJoueur()}}
+{\footnotesize\ttfamily void Actions\+Joueur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$}]{pile,  }\item[{int $\ast$}]{drag\+Drop,  }\item[{int $\ast$}]{actions,  }\item[{int $\ast$}]{carte\+Prise,  }\item[{char}]{defausse\mbox{[}10\mbox{]},  }\item[{int}]{numJ,  }\item[{int}]{nb\+Joueur,  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{dos\mbox{[}3\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{action\mbox{[}12\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{galerie\mbox{[}6\mbox{]},  }\item[{BITMAP $\ast$}]{buffer,  }\item[{BITMAP $\ast$}]{plateau,  }\item[{BITMAP $\ast$}]{Im\+Pepite\mbox{[}3\mbox{]},  }\item[{int}]{pepite\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+Compter les cartes du joueur
+
+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---Le joueur doit piocher/défausser-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---///
+
+Drag and drop de la pioche
+
+Drag and drop\+: défausser un carte\+: action ou galerie
+
+On effectuer un drag and drop des cartes A 0 à A 9, et des cartes A 10, A 11\+:
+
+Carte map
+
+Carte éboulement
+
+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---Le joueur doit placer une carte ou passer-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---///
+
+On utilise une carte galerie,
+
+On utilise une carte action\+:
+
+Type de la carte\+:
+
+Carte détruire, ou réparer = de A0 à A9 (!=A10 et A11)
+
+Carte réparer (sur soi)
+
+Carte Détruire et réparer (sur les adversaires)
+
+Va permettre de modifier l\textquotesingle{}état des outils du joueur ciblé
+
+Carte éboulement\+: Placer sur le plateau
+
+Carte map
+
+Passer le tour sans jouer
+
+Temps du joueur pour finir le tour
+
+Fin de tourHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plateau_8c_a8d90a0de6346e678318e074df302f916_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{plateau_8c_abdf1e3ffc52fce73aabd0c1b52d66695}\label{plateau_8c_abdf1e3ffc52fce73aabd0c1b52d66695}} 
+\index{plateau.c@{plateau.c}!afficherAdversaires@{afficherAdversaires}}
+\index{afficherAdversaires@{afficherAdversaires}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{afficherAdversaires()}{afficherAdversaires()}}
+{\footnotesize\ttfamily void afficher\+Adversaires (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{int}]{nb\+Joueur,  }\item[{int}]{joueur\+Actuel,  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{nains\mbox{[}8\mbox{]},  }\item[{BITMAP $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{plateau_8c_a48bb2ab20be3e6be1eb2ec357e0b35af}\label{plateau_8c_a48bb2ab20be3e6be1eb2ec357e0b35af}} 
+\index{plateau.c@{plateau.c}!afficherCartes@{afficherCartes}}
+\index{afficherCartes@{afficherCartes}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{afficherCartes()}{afficherCartes()}}
+{\footnotesize\ttfamily void afficher\+Cartes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$}]{pile,  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{dos\mbox{[}3\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{galerie\mbox{[}6\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{action\mbox{[}12\mbox{]},  }\item[{BITMAP $\ast$}]{outils\mbox{[}3\mbox{]},  }\item[{BITMAP $\ast$}]{passer\mbox{[}2\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur,  }\item[{int}]{carte\+Prise,  }\item[{char}]{defausse\mbox{[}10\mbox{]},  }\item[{BITMAP $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+Cartes pépites et pioche, et passer
+
+La carte de défausse
+
+Malus du joueur\+:
+
+Jeu du joueur\mbox{\Hypertarget{plateau_8c_ac748254b76ebf2b5bd9782d173a7ae56}\label{plateau_8c_ac748254b76ebf2b5bd9782d173a7ae56}} 
+\index{plateau.c@{plateau.c}!AfficherJoueur@{AfficherJoueur}}
+\index{AfficherJoueur@{AfficherJoueur}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{AfficherJoueur()}{AfficherJoueur()}}
+{\footnotesize\ttfamily void Afficher\+Joueur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur,  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{nain\mbox{[}8\mbox{]},  }\item[{BITMAP $\ast$}]{outils\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{plateau_8c_a6b922f6a0fd47a6e336a72b50f2bd4e1}\label{plateau_8c_a6b922f6a0fd47a6e336a72b50f2bd4e1}} 
+\index{plateau.c@{plateau.c}!afficherMessage@{afficherMessage}}
+\index{afficherMessage@{afficherMessage}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{afficherMessage()}{afficherMessage()}}
+{\footnotesize\ttfamily void afficher\+Message (\begin{DoxyParamCaption}\item[{char}]{message\mbox{[}40\mbox{]} }\end{DoxyParamCaption})}
+
+Afficher\+: le message\mbox{\Hypertarget{plateau_8c_a6efb145196062cd0a751148d37dfe31f}\label{plateau_8c_a6efb145196062cd0a751148d37dfe31f}} 
+\index{plateau.c@{plateau.c}!afficherPlateau@{afficherPlateau}}
+\index{afficherPlateau@{afficherPlateau}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{afficherPlateau()}{afficherPlateau()}}
+{\footnotesize\ttfamily void afficher\+Plateau (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{galerie\mbox{[}6\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{action\mbox{[}12\mbox{]},  }\item[{BITMAP $\ast$}]{buffer,  }\item[{BITMAP $\ast$}]{plateau }\end{DoxyParamCaption})}
+
+Aligner la carte sur le plateau
+
+Déterminer la carte placée sur le plateau en comptant les pixels
+
+Afficher la carte correspondante\mbox{\Hypertarget{plateau_8c_a4526a6cc0b0b8bd97133c55830e93008}\label{plateau_8c_a4526a6cc0b0b8bd97133c55830e93008}} 
+\index{plateau.c@{plateau.c}!confirmer@{confirmer}}
+\index{confirmer@{confirmer}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{confirmer()}{confirmer()}}
+{\footnotesize\ttfamily int confirmer (\begin{DoxyParamCaption}\item[{char}]{phrase\mbox{[}30\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{plateau_8c_a52bd9044779fa82016e4a43a91abcdb8}\label{plateau_8c_a52bd9044779fa82016e4a43a91abcdb8}} 
+\index{plateau.c@{plateau.c}!connectionCarte@{connectionCarte}}
+\index{connectionCarte@{connectionCarte}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{connectionCarte()}{connectionCarte()}}
+{\footnotesize\ttfamily void connection\+Carte (\begin{DoxyParamCaption}\item[{BITMAP $\ast$}]{plateau,  }\item[{int}]{ligne,  }\item[{int}]{col,  }\item[{int $\ast$}]{placer,  }\item[{int}]{carte }\end{DoxyParamCaption})}
+
+Chercher une carte à droite
+
+Chercher une carte à gauche
+
+Chercher une carte en bas
+
+Chercher une carte en haut\mbox{\Hypertarget{plateau_8c_a4f72619f4d294a9eadf3228b9fa8f72e}\label{plateau_8c_a4f72619f4d294a9eadf3228b9fa8f72e}} 
+\index{plateau.c@{plateau.c}!Detruire@{Detruire}}
+\index{Detruire@{Detruire}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{Detruire()}{Detruire()}}
+{\footnotesize\ttfamily void Detruire (\begin{DoxyParamCaption}\item[{int}]{carte,  }\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{joueur,  }\item[{int $\ast$}]{drag\+Drop }\end{DoxyParamCaption})}
+
+lanterne
+
+Charette
+
+Pioche
+
+Tout casser
+
+Annuler l\textquotesingle{}utilisation de la carte si elle n\textquotesingle{}a aucun effet\mbox{\Hypertarget{plateau_8c_a432cc0a927d10ef38c2c7bf77cd260aa}\label{plateau_8c_a432cc0a927d10ef38c2c7bf77cd260aa}} 
+\index{plateau.c@{plateau.c}!detruireGalerie@{detruireGalerie}}
+\index{detruireGalerie@{detruireGalerie}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{detruireGalerie()}{detruireGalerie()}}
+{\footnotesize\ttfamily void detruire\+Galerie (\begin{DoxyParamCaption}\item[{BITMAP $\ast$}]{plateau }\end{DoxyParamCaption})}
+
+trouver la bonne carte\mbox{\Hypertarget{plateau_8c_a9c37652eeca976dc98674c8fd3e8954d}\label{plateau_8c_a9c37652eeca976dc98674c8fd3e8954d}} 
+\index{plateau.c@{plateau.c}!dragAndDrop@{dragAndDrop}}
+\index{dragAndDrop@{dragAndDrop}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{dragAndDrop()}{dragAndDrop()}}
+{\footnotesize\ttfamily void drag\+And\+Drop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{carte,  }\item[{int}]{destX,  }\item[{int}]{destY,  }\item[{int}]{plusX,  }\item[{int}]{plusY,  }\item[{int $\ast$}]{drag\+Drop,  }\item[{BITMAP $\ast$}]{buffer }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{plateau_8c_ab076bb35b9baaed1ab4429aa917ae976}\label{plateau_8c_ab076bb35b9baaed1ab4429aa917ae976}} 
+\index{plateau.c@{plateau.c}!eboulement@{eboulement}}
+\index{eboulement@{eboulement}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{eboulement()}{eboulement()}}
+{\footnotesize\ttfamily void eboulement (\begin{DoxyParamCaption}\item[{int $\ast$}]{drag\+Drop,  }\item[{BITMAP $\ast$}]{buffer,  }\item[{BITMAP $\ast$}]{plateau }\end{DoxyParamCaption})}
+
+Aligner la carte sur le plateau\mbox{\Hypertarget{plateau_8c_a19ac3e4a1e981d6566eb4cf8ee7d557b}\label{plateau_8c_a19ac3e4a1e981d6566eb4cf8ee7d557b}} 
+\index{plateau.c@{plateau.c}!initCartes@{initCartes}}
+\index{initCartes@{initCartes}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{initCartes()}{initCartes()}}
+{\footnotesize\ttfamily void init\+Cartes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{dos\mbox{[}3\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{galerie\mbox{[}6\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{action\mbox{[}12\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{plateau_8c_a391165e2d5a41749746f02629f617923}\label{plateau_8c_a391165e2d5a41749746f02629f617923}} 
+\index{plateau.c@{plateau.c}!MainPlateau@{MainPlateau}}
+\index{MainPlateau@{MainPlateau}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{MainPlateau()}{MainPlateau()}}
+{\footnotesize\ttfamily void Main\+Plateau (\begin{DoxyParamCaption}\item[{int}]{nb\+Joueurs,  }\item[{BITMAP $\ast$}]{nain,  }\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$}]{pile,  }\item[{BITMAP $\ast$}]{plateau,  }\item[{int}]{pepite\mbox{[}3\mbox{]},  }\item[{char}]{defausse\mbox{[}10\mbox{]},  }\item[{int}]{ordi,  }\item[{int}]{tour }\end{DoxyParamCaption})}
+
+Un tour pour chaque joueurHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plateau_8c_a391165e2d5a41749746f02629f617923_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{plateau_8c_a5a3dee86400d40c1c34c4eeb93998702}\label{plateau_8c_a5a3dee86400d40c1c34c4eeb93998702}} 
+\index{plateau.c@{plateau.c}!outilsAdverses@{outilsAdverses}}
+\index{outilsAdverses@{outilsAdverses}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{outilsAdverses()}{outilsAdverses()}}
+{\footnotesize\ttfamily void outils\+Adverses (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{int}]{nbjoueur,  }\item[{int}]{joueur\+Actuel,  }\item[{int}]{carte,  }\item[{int $\ast$}]{drag\+Drop }\end{DoxyParamCaption})}
+
+Déterminer la cible
+
+Carte Réparer
+
+Carte détruireHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{plateau_8c_a5a3dee86400d40c1c34c4eeb93998702_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{plateau_8c_a1cf57bf87dc01bf9711489cbe0b13611}\label{plateau_8c_a1cf57bf87dc01bf9711489cbe0b13611}} 
+\index{plateau.c@{plateau.c}!PlacerCarte@{PlacerCarte}}
+\index{PlacerCarte@{PlacerCarte}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{PlacerCarte()}{PlacerCarte()}}
+{\footnotesize\ttfamily void Placer\+Carte (\begin{DoxyParamCaption}\item[{int}]{carte,  }\item[{BITMAP $\ast$}]{plateau }\end{DoxyParamCaption})}
+
+Aligner la carte sur le plateau
+
+Placer les pixels correspondant aux entrées
+
+Entrées \+: droite gauche
+
+Entrées \+: droite gauche haut
+
+Entrées \+: droite bas haut
+
+Entrées \+: droite gauche bas haut
+
+IMPASSE = entrée gauche
+
+Placer les pixels indiquant le type de la carte\mbox{\Hypertarget{plateau_8c_a3aafb072999724f1cbd7896dc968a1e6}\label{plateau_8c_a3aafb072999724f1cbd7896dc968a1e6}} 
+\index{plateau.c@{plateau.c}!Plateau@{Plateau}}
+\index{Plateau@{Plateau}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{Plateau()}{Plateau()}}
+{\footnotesize\ttfamily void Plateau (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{nain\mbox{[}8\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_ab7478e2588050977332dc087c972d1e4}{t\+\_\+\+Pile}} $\ast$}]{pile,  }\item[{int}]{nb\+Joueurs,  }\item[{int}]{numJ,  }\item[{BITMAP $\ast$}]{plateau,  }\item[{int}]{pepite\mbox{[}3\mbox{]},  }\item[{char}]{defausse\mbox{[}10\mbox{]},  }\item[{int $\ast$}]{sortie }\end{DoxyParamCaption})}
+
+IMAGES\+:
+
+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---BOUCLE DU JEU-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---/
+
+Les actions du joueur \+: dans l\textquotesingle{}ordre
+
+ZOOM
+
+Détecter la fin de partieHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plateau_8c_a3aafb072999724f1cbd7896dc968a1e6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{plateau_8c_a77cbf97842f3822f57d19082e0ce80c9}\label{plateau_8c_a77cbf97842f3822f57d19082e0ce80c9}} 
+\index{plateau.c@{plateau.c}!Reparer@{Reparer}}
+\index{Reparer@{Reparer}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{Reparer()}{Reparer()}}
+{\footnotesize\ttfamily void Reparer (\begin{DoxyParamCaption}\item[{int}]{carte,  }\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}} $\ast$}]{joueur,  }\item[{int $\ast$}]{drag\+Drop }\end{DoxyParamCaption})}
+
+lanterne
+
+Charette
+
+Pioche
+
+Pioche charette
+
+Lanterne charette
+
+Pioche lanterne
+
+Annuler l\textquotesingle{}utilisation de la carte si elle n\textquotesingle{}a aucun effet\mbox{\Hypertarget{plateau_8c_a43919163b8da9d217d2eefda0545df55}\label{plateau_8c_a43919163b8da9d217d2eefda0545df55}} 
+\index{plateau.c@{plateau.c}!verifierPlateau@{verifierPlateau}}
+\index{verifierPlateau@{verifierPlateau}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{verifierPlateau()}{verifierPlateau()}}
+{\footnotesize\ttfamily void verifier\+Plateau (\begin{DoxyParamCaption}\item[{int}]{nb\+Outils,  }\item[{int}]{carte,  }\item[{int $\ast$}]{drag\+Drop,  }\item[{BITMAP $\ast$}]{buffer,  }\item[{BITMAP $\ast$}]{plateau }\end{DoxyParamCaption})}
+
+Aligner la carte sur le plateau
+
+La carte est située dans le plateau
+
+Vérifie que la carte est bien adjacente à au moins une autre
+
+La carte possède un chemin à droite
+
+Pas de chemin à droite
+
+La carte possède un chemin à gauche
+
+Pas de chemin à gauche
+
+La carte possède un chemin en haut
+
+Pas de chemin en haut
+
+La carte possède un chemin en bas
+
+Pas de chemin en bas
+
+Le joueur n\textquotesingle{}a pas tous ses outils
+
+L\textquotesingle{}emplacement actuel est déjà utiliséHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{plateau_8c_a43919163b8da9d217d2eefda0545df55_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{plateau_8c_ad1820218f5b6a26b0f6e9379fe121c3f}\label{plateau_8c_ad1820218f5b6a26b0f6e9379fe121c3f}} 
+\index{plateau.c@{plateau.c}!VoirJoueurs@{VoirJoueurs}}
+\index{VoirJoueurs@{VoirJoueurs}!plateau.c@{plateau.c}}
+\doxysubsubsection{\texorpdfstring{VoirJoueurs()}{VoirJoueurs()}}
+{\footnotesize\ttfamily void Voir\+Joueurs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{header_8h_a3e417dda93856044faf7542bf6c70682}{t\+\_\+joueur}}}]{joueur\mbox{[}8\mbox{]},  }\item[{\mbox{\hyperlink{header_8h_aa66763ee8768ffec02483d44d32edc7b}{t\+\_\+image}}}]{nain\mbox{[}8\mbox{]},  }\item[{BITMAP $\ast$}]{outils\mbox{[}3\mbox{]},  }\item[{int}]{joueur\+Actuel,  }\item[{int}]{nb\+Joueur }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{plateau_8c_ad1820218f5b6a26b0f6e9379fe121c3f_cgraph}
+\end{center}
+\end{figure}
