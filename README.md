@@ -9,9 +9,6 @@
 
 Les dossiers "Aide", "Cartes", "Confirmer", "Ecran_vicoire", "element", "Nains","Personnage" et "Video" contiennent les fichiers audios et visuels
 
-Pour lancer le projet sur Quartus, double-cliquer sur "Calculatrice.qpf" et tout le projet se lancera.
-Pour simplement voir les codes de chacun des fichiers .vhd vous retrouverez un dossier "VHD Files" :
-
   * _Calculatrice_Entity_ : Fichier principal gérant l'appel des différents sous-programmes de manière récursive
   *  -Nec_receiver- : Permet de recevoir le signal infrarouge 
   * _Conversion_signal_ : Pemert de convertir le signal infrarouge recu en une combinaison binaire
