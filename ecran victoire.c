@@ -124,9 +124,6 @@ void game_over()
 
 
 
-///    ------------------   J'étais entrain d'essayer d'eviter la lecture sauvegarde donc j'appelle victoire saboteur dans nouvelle partie et je ne comprend pas pourquoi ca crash    ---------------------------------------  ////
-
-
 ///Affichage d'une animation lorsque les saboteurs ont gagnés la partie
 void victoire_saboteur(t_joueur joueur[8], int nb_joueur)
 {
