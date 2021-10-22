@@ -3,8 +3,11 @@
 ### Bonjour et bienvenue dans ma version du saboteur codé en C !
 
 *** 
+#### Il est impératif d'avoir les biliothèques Allegro et Algif pour le bon fonctionnement du jeu.
 
 * _Règle du jeu_ :  http://www.gigamic.com/files/catalog/products/rules/rules-saboteur-2.pdf
+
+Les dossiers "Aide", "Cartes", "Confirmer", "Ecran_vicoire", "element", "Nains","Personnage" et "Video" contiennent les fichiers audios et visuels
 
 Pour lancer le projet sur Quartus, double-cliquer sur "Calculatrice.qpf" et tout le projet se lancera.
 Pour simplement voir les codes de chacun des fichiers .vhd vous retrouverez un dossier "VHD Files" :
