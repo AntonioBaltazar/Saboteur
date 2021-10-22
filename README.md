@@ -11,9 +11,9 @@ Les dossiers "Aide", "Cartes", "Confirmer", "Ecran_vicoire", "element", "Nains",
 
   * _aide_ : Affiche les pages d'aides avec les règles du jeu 
   * _ecran victoire_ : Contient tout les écrans de victoire 
-  * _fin de partie_ : Verifie si les conditions sont réunis dans 
+  * _fin de partie_ : Verifie si les conditions de fin de partie sont réunis 
   * _main_ : Fichier principal gérant l'appel des différents sous-programmes séquentiellement
-  * _nouvelle partie_ : Affiche les deux opérandes ainsi que le résultat
+  * _nouvelle partie_ : Gère la lancement d'une nouvelle partie
   * _pioche_ : Contrôle un buzzer pour emettre un signal sonore correspondant au résultat
   * _menu_ :
   * _sauvegarder_ : 
