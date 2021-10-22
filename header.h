@@ -12,6 +12,7 @@
 #define NB_ELEMENTB 23
 
 
+
 typedef struct image
 {
     BITMAP *fichier;
