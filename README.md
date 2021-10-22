@@ -4,9 +4,7 @@
 
 *** 
 
-
-
----
+*_Règle du jeu_ :  http://www.gigamic.com/files/catalog/products/rules/rules-saboteur-2.pdf
 
 Pour lancer le projet sur Quartus, double-cliquer sur "Calculatrice.qpf" et tout le projet se lancera.
 Pour simplement voir les codes de chacun des fichiers .vhd vous retrouverez un dossier "VHD Files" :
