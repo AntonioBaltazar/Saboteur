@@ -1,4 +1,4 @@
-# Saboteur-C
+# Saboteur
 
 ### Bonjour et bienvenue dans ma version du saboteur codé en C !
 
